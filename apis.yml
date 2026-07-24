@@ -1,9 +1,30 @@
 aid: bustle
 name: Bustle
-description: Bustle is a company surfaced as a portfolio company of 500-global, general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Bustle is the flagship lifestyle and culture publication of Bustle Digital
+  Group (BDG), a New York-based digital media company that moves culture forward
+  through premium editorial content, social storytelling, and live experiences.
+  BDG operates a portfolio of eight brands - Bustle, NYLON, Scary Mommy, W
+  Magazine, Inverse, The Zoe Report, Romper, and Elite Daily - spanning
+  lifestyle, fashion, parenting, entertainment, and luxury. The company produces
+  award-winning branded content and campaigns through its BDG Studios and BDGx
+  experiential arm. Bustle is a consumer media publisher rather than an API
+  provider; this profile is maintained in the API Evangelist network as a
+  company/portfolio lead, and no public developer API or specification has been
+  identified on its properties.
 url: https://raw.githubusercontent.com/api-evangelist/bustle/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://imgix.bustle.com/uploads/image/2026/3/12/1b21221c/bdg_2026_share.png?w=1200&h=630&fit=crop&fm=jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Media
+- Digital Publishing
+- Content
+- Lifestyle
+- Entertainment
+- Advertising
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,18 @@ maintainers:
 common:
 - type: Website
   url: https://bdg.com
+- type: About
+  url: https://bdg.com/the-company
+- type: Support
+  url: https://bdg.com/contact
+- type: PrivacyPolicy
+  url: https://bdg.com/info/privacy-policy
+- type: TermsOfService
+  url: https://bdg.com/info/terms-of-service
+- type: DomainSecurity
+  url: security/bustle-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
